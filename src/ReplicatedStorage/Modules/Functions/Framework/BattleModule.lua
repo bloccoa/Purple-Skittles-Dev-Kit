@@ -1,4 +1,4 @@
---!nonstrict
+--!nocheck
 --// BATTLEMODULE
 --// does the battles
 local returnthis = {}
@@ -34,7 +34,7 @@ local gdir: Vector3 = Vector3.new()
 
 local BTT = nil
 local BTT2 = { false, 0, CFrame.new(0, 112, 25) * CFrame.Angles(-0.5, 0, 0), 0, false }
-local puckAppearances = {
+local puckAppearances = { -- this is where you change appearances (this is the sign saying this btw)
 	["sine"] = {
 		["Material"] = Enum.Material.Neon,
 		["ParticleColor"] = ColorSequence.new(Color3.new(1, 1, 0)),

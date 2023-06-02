@@ -1,3 +1,4 @@
+--!strict
 --//SKINS
 --// This is where skins are stored
 --// HOW TO USE:
@@ -7,7 +8,7 @@
 
 local returnthis = {}
 
-function returnthis.find(x)
+function returnthis.find(x) : any
 	if x == "00" then
 		return "344356976", "002" --tim
 	elseif x == "01" then

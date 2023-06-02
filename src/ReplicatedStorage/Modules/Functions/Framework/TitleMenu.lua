@@ -1,3 +1,4 @@
+--!strict
 local returnthis = {}
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -82,7 +83,7 @@ local function loadNpc(ID, Action)
 	end
 end
 
-local function defload(kill)
+local function defload(kill: boolean?)
 	plrStatsModule.LOAD = true
 	mainGui.op.BackgroundTransparency = 0
 	plrStatsModule.data = nil
@@ -164,7 +165,8 @@ local function defload(kill)
 		["maxcool"] = tonumber(plrStatsModule.data[12]) or 100,
 	}
 	plrStatsModule.stats["maxcool"] = tonumber(plrStatsModule.data[12]) or 100
-	plrStatsModule.broat = { false, "" }
+    local lazyfix: {any} = { false, "" }
+    plrStatsModule.broat = lazyfix
 	plrStatsModule.plrChar.p.Position = plrStatsModule.plrChar.Position
     remotes.Framework.setCamPos:Fire(plrStatsModule.plrChar.Position)
 	coroutine.wrap(function()

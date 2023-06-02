@@ -35,13 +35,27 @@ local items = { --[item id] = {item name, item description, item use text},
 		{ plrLocalName .. " wore some weirdo's attire." },
 	},
 	["004"] = { "Pizza", "Gives 70 cool.", { plrLocalName .. " ate the pizza.", plrLocalName .. " got 70 cool." } },
+    ["005"] = {
+        "Shades",
+        "Gives 150 cool.",
+        { plrLocalName .. " wore the shades,", "but they fell off instantly.", plrLocalName .. " still got 150 cool." },
+    },
+    ["006"] = { "Sunny D", "Makes you RAD!", {
+        plrLocalName .. " drank the Sunny D.",
+        plrLocalName .. " got super rad, bro!",
+    } },
 	["007"] = { "Sleek Suit", "Sleekest of all.", { plrLocalName .. " wore the Sleek Suit." } },
 	["008"] = { "Bee Suit", "Smells used.", { plrLocalName .. " converted into bubblism." } },
+    ["010"] = { "Invisiburger", "Gives 80 cool.", {
+        plrLocalName .. " ate the Invisiburger.",
+        plrLocalName .. " got 80 cool.",
+    } },
 	["028"] = {
 		"Choco Bar",
 		"Gives 35 cool.",
 		{ plrLocalName .. " ate the Choco Bar.", plrLocalName .. " got 35 cool." },
 	},
+    ["035"] = { "Ken Suit", "Be a fat rat!", { plrLocalName .. " wore the Ken Suit." } },
 	["107"] = { "Viridian Suit", "no you cannot flip", { plrLocalName .. " became an obscure indie reference." } },
 	["118"] = { "Odd Uniform", "Unknown origins.", { plrLocalName .. " put on the uniform." } },
 }

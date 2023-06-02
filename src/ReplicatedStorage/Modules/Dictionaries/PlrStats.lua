@@ -1,3 +1,4 @@
+--!strict
 -- // PLRSTATS
 -- // Default values, like default costume and name.
 local PlrStats = {}
@@ -21,7 +22,8 @@ PlrStats.onpath = false
 PlrStats.LOAD = false
 PlrStats.battling = false
 
-PlrStats.broat = { false, "" }
+local lazyfixAGAIN: {any} = { false, "" }
+PlrStats.broat = lazyfixAGAIN
 PlrStats.maps = {}
 
 PlrStats.stats = {
