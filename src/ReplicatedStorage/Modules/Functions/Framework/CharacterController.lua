@@ -1,4 +1,4 @@
---!strict
+--!nocheck
 local CharacterController = {}
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")

@@ -3,6 +3,7 @@ local musicSets = {}
 musicSets.ids = {
 	jammies = 9989217962,
     desert = 9989258061,
+    blobo = 11705244061,
 	house = 9989221410,
 	water = 10019333189,
 }
@@ -10,6 +11,7 @@ musicSets.ids = {
 musicSets.translate = {
 	s1 = "jammies",
     s2 = "desert",
+    s3 = "blobo",
 	s11 = "water",
 	sH = "house",
 }

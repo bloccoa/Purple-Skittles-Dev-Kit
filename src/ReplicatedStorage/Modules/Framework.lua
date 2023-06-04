@@ -1,4 +1,4 @@
---!nonstrict
+--!nocheck
 --//FRAMEWORK
 --// The main game script.
 

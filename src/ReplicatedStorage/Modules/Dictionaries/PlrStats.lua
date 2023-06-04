@@ -11,7 +11,7 @@ local mainGui = plrGui.Main
 
 PlrStats.plrLocalName = "Timothy" -- for stuff like "[plrLocalName] got [BLANK] item".
 
-PlrStats.plrChar = nil
+PlrStats.plrChar = nil 
 PlrStats.plrAppearance = nil
 PlrStats.data = nil -- this is a really bad way of doing this
 PlrStats.plrItems = nil

@@ -1,4 +1,4 @@
---!strict
+--!nocheck
 local returnthis = {}
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")

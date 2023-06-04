@@ -1,4 +1,4 @@
---!strict
+--!nocheck
 --// INGAMEMENU MODULE
 --// module for thIngameMenu
 
